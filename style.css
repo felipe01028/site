@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+}
+
+.topo {
+  
+  background-color: black;
+}
+
+.logo-texto {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.inicio {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("fundo.jfif");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.blur {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.conteudo {
+  position: relative;
+  text-align: center; 
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.promocao{
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.promocao img{
+  max-width: 800px;
+  min-width: 320px;
+  border-radius: 10%;
+  border: auto;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+button {
+  background: #37b524;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-weight: 700;
+}
+
+
